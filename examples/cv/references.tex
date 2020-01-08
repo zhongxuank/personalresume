@@ -1,0 +1,40 @@
+\cvsection{References}
+
+\newcommand{\cvdoublecolumn}[2]{%
+    \begin{minipage}[t]{{.45\linewidth}}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{{.45\linewidth}}#2\end{minipage}%
+}
+
+\newcommand{\cvreference}[7]{%
+    {\entrytitlestyle{#1}}\\% Name
+    \ifthenelse{\equal{#2}{}}{}{\descriptionstyle{#2}\\}%
+    \ifthenelse{\equal{#3}{}}{}{\descriptionstyle{#3}\\}%
+    \ifthenelse{\equal{#4}{}}{}{\descriptionstyle{#4}\\}%
+    \ifthenelse{\equal{#5}{}}{}{\descriptionstyle{#5}\\}%
+    \ifthenelse{\equal{#6}{}}{}{\faEnvelope\acvHeaderIconSep~
+      \descriptionstyle{\texttt{#6}}\\}%
+    \ifthenelse{\equal{#7}{}}{}{\descriptionstyle{#7}}}
+
+\cvdoublecolumn{\cvreference{Matthew Terence Stamps}
+    {Yale-NUS College}
+    {16 College Avenue West}
+    {Singapore 138527}
+    {}
+    {matt.stamps@yale-nus.edu.sg}
+    {}%
+    }
+    {\cvreference{Isabelle Augenstein}
+    {Department of Computer Science}
+    {University of Copenhagen}
+    {Sigurdsgade 41, 2200 København, Denmark}
+    {}
+    {augenstein@di.ku.dk}
+    {}%
+  }
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% TeX-master: "../cv"
+%%% End:

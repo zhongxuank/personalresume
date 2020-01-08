@@ -14,20 +14,13 @@
     "latex2e"
     "cv/education"
     "cv/skills"
-    "cv/experience"
-    "cv/extracurricular"
-    "cv/honors"
-    "cv/presentation"
-    "cv/writing"
-    "cv/committees"
+    "cv/research"
+    "cv/work"
+    "cv/teaching"
+    "cv/leadership"
+    "cv/references"
     "awesome-cv"
     "awesome-cv11")
-   (LaTeX-add-environments
-    '("question" LaTeX-env-args ["argument"] 0)
-    '("remark" LaTeX-env-args ["argument"] 0)
-    '("exercise" LaTeX-env-args ["argument"] 0)
-    '("example" LaTeX-env-args ["argument"] 0)
-    '("solution" LaTeX-env-args ["argument"] 0))
    (LaTeX-add-xcolor-definecolors
     "awesome"))
  :latex)

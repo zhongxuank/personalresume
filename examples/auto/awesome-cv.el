@@ -137,9 +137,6 @@
     "photodim"
     "headertextwidth"
     "headerphotowidth")
-   (LaTeX-add-fontspec-newfontcmds
-    "headerfont"
-    "headerfontlight")
    (LaTeX-add-array-newcolumntypes
     "L"
     "C"
@@ -167,6 +164,9 @@
     "awesome-nephritis"
     "awesome-concrete"
     "awesome-darknight"
-    "awesome"))
+    "awesome")
+   (LaTeX-add-fontspec-newfontcmds
+    "headerfont"
+    "headerfontlight"))
  :latex)
 
